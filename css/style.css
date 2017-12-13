@@ -1,14 +1,77 @@
-body {
-	background-color: silver;
-	font-family: sans-serif;
+* {
+	padding: 0px;
+	margin: 0px;
 }
 
-#level_title {
-	font-size: 18px;
-	color: black;		
+body {
+	background-color: black;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+
+#level_title{
+	font-size: 27px;
+	color: white;		
 	font-weight: bold;
+	position: absolute;
+	top: 15px;
+	left: 180px;
+	right: 180px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #level_image {
-	height: 500px;
+	height: 700px;
+	width: 100%;
+}
+
+#begin{
+	position: absolute;
+	top: 220px;
+	left: 475px;
+}
+
+
+div{
+	position: relative;
+}
+
+button{
+	width: 200px;
+	height: 90px;
+	background-color: rgba(10,20,30,0.0);
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 60px;
+}
+
+#wapen{
+	position: absolute;
+	top: 75%;
+	right: 1150px;
+}
+
+audio{
+	display: none;
+}
+
+#zwaard{
+	position: absolute;
+	top: 75%;
+	right: 500px;
+}
+
+#blaster{
+	position: absolute;
+	top: 75%;
+	left: 950px;
+}
+
+#suit{
+	position: absolute;
+	top: 75%;
+	left: 950px;
 }

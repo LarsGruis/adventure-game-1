@@ -7,22 +7,44 @@
 </head>
 <body>
 
+	<audio controls autoplay>
+		<source src="muziek.mp3" type="audio/mpeg">	
+	</audio>
+
+
 <main>
 
 	<section id="status"></section>
-
+ <div class="div">
 	<section id="level_title">Start</section>
 
+
+
+  <div id="begin">	
 	<nav>
-
-		<button id="option1" onclick="javascript:Level1()">Optie 1</button>
-		<button id="option2">Optie 2</button>
-		<button id="option3">Optie 3</button>
-
+		<button id="option1" onClick="javascript:Level1()">Start</button>
+		<button id="option2">.</button>
+		<button id="option3">.</button>
 	</nav>
+  </div>
 
-	<img id="level_image" class="level_image" src="img/rpg.png">
+	<img id="level_image" class="level_image" src="img/logo.jpg">
+    </div>
 
+    <img id="level1" class="level1">
+	</div>
+
+	<img id="wapen" class="wapen" src="img/blaster.png" alt="Blaster" height="55" width="120">
+    </div>
+
+	<img id="zwaard" class="zwaard" src="img/zwaard.png" alt="Zwaard" height="55" width="120">
+    </div>
+
+    <img id="blaster" class="blaster" src="img/dl44.png" alt="DL-44" height="55" width="120">
+    </div>
+
+    <img id="suit" class="suit" src="img/stormtrooper1.png" alt="Stormtrooper suit" height="120" width="55">
+    </div>    
 </main>
 
 	<script src="js/game.js" type="text/javascript" ></script>
